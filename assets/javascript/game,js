@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+</head>
+
+<body>
+
+<script>
+
+function 
+
+
+
+
+</script>
+
+<!--put the following on your page and make the game work.
+
+Guess what letter I'm thinking of
+
+Wins: # of times the user has guessed the letter correctly
+
+Losses: # of times the user has failed to guess the letter correctly after exhausting all guesses
+
+Guesses Left: # of guesses left. This will update
+
+Your Guesses so far: # of times the user has failed to guess the letter correctly after exhausting all guesses-->
+
+
+</body>
+
+</html>

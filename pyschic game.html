@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+		<title>Pyschic Game</title>
+
+		<!-- Added link to the jQuery Library -->
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div id="game">
+	<p>Placeholder</p>
+</div>
+
+
+<script type="text/javascript">
+
+
+// set of letters (array) to select from // 
+		 
+   		var userChoices = ['A', 'B', 'C', 'D', 'E', 'F', 'G' ,'H','I','J', 'K', 'L', 'M', 'N', 'O', 'P' ,'Q','R', 'S', 'T', 'U', 'V', 'W', 'X' ,'Y','Z'] var res = str.toLowerCase();
+ 
+
+// Create a string which will hold a randomly select a letter and store it
+        var randomLetter = "";
+
+
+
+// variables set to record data declares to 0 /reverse engineer for Psychic game
+		
+var wins = 0;
+var losses = 0;
+var remainingGuesses = 0;
+var lettersGuessed = 0;
+
+// When the user presses the key it records the keypress and then sets it to userguess reverse engineer for Psychic game
+document.onkeyup = function(event) {
+	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+
+
+
+
+</script>
+
+<!--put the following on your page and make the game work.
+
+Guess what letter I'm thinking of
+
+Wins: # of times the user has guessed the letter correctly
+
+Losses: # of times the user has failed to guess the letter correctly after exhausting all guesses
+
+Guesses Left: # of guesses left. This will update
+
+Your Guesses so far: # of times the user has failed to guess the letter correctly after exhausting all guesses-->
+
+
+</body>
+
+</html>
